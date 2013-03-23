@@ -1,0 +1,36 @@
+Exercice 1 - Miroir
+Pour cet exercice, l'utilisation de la librairie stdlib.h est interdite.
+
+    Ecrire une fonction mirror_string qui prend en paramètre une chaîne de caractères et qui inverse ses caractères (la chaîne de caratères passée en paramètre est modifiée). Pour tester votre fonction, écrivez un programme affichant l'argument du programme à l'envers. Par exemple :
+
+    		$>miroir trace
+    		ecart		
+    		
+
+    Ecrire une fonction mirror_strings qui applique mirror_string	à plusieurs chaînes de caratères et tester votre fonction. Par exemple :
+
+    		$>miroir ecart DNA
+    		trace AND
+    		
+
+    Ecrire un programme miroir2 qui affiche toute la ligne de commande à l'envers en remplaçant les espaces par des _ :
+
+    		$>miroir2 ecart DNA
+    		AND_trace		
+    			
+
+
+Exercice 2 - Puissance
+
+    Ecrire une fonction itérative qui prend comme paramètres un entier a et un entier positif non nul n, et qui retourne an.
+    Ecrire maintenant une fonction récursive calculant cette même puissance.
+
+
+Exercice 3 - Comptage de mots
+Écrire une fonction wc qui compte le nombre de caractères, mots (séparés par ' ' ou '\t') et lignes (séparées par '\n') arrivant sur l'entrée standard.
+
+Exercice 4 - Conversion de bases
+Écrire un programme qui prend un argument. S'il s'agit d'un mot en minuscules, il l'interprétera comme un nombre en base 26 (avec 'a' équivalent à 0, 'b' équivalent à 1, ..., 'z' équivalent à 25) et renverra sa conversion en base 10. Si l'argument est numérique (récupérable avec atoi), il fera l'opération inverse. Dans tout autre cas, il renverra un erreur. Conseil : écrire deux fonctions qui testent respectivement si un mot n'est formé que de lettres minuscules et si un mot est un numérique.
+
+Exercice 5 - Recherche dichotomique
+Ecrire une fonction récursive de recherche dichotomique d'une valeur dans un tableau trié d'entiers de taille n.
